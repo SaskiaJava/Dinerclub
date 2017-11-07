@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html lang="nl">
+<title>Lekker makkelijk</title>
+    <body>
+
+
+<style>
+#demo { color:red; }
+.colortext { color: orange; }
+
+body {
+   background-color: lightblue;    
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: red;
+}
+h2 {
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: yellow;
+}
+p {
+    font-family: verdana;
+    font-size: 10px;
+    text-align: center;
+}
+div {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    border: 15px solid navy;
+    transistion: width 2s ease-in-out 0.5s;
+}
+div:hover {
+   width: 500px;
+}
+</style>
+
+    <head>
+<p class="colortext">Laat je inspireren</p>
+<meta charset="utf-8">
+<meta name="description" content="Makkelijke toepasbare inspiratie in jouw keuken">
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<link rel="stylesheet" href="basis.css" type="text/css" media="screen">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    </head>
+
+
+
+<header><h1>Lekker makkelijk</h1></header>
+
+<nav>
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="keuken essentials.html">Wie zijn wij</a></li>
+<li><a href="basis ingredienten.html">Hobby’s</a></li>
+<li><a href="fotos.html">Foto’s</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<article>
+<h1>Opties aan het verkennen</h1>
+
+<form>
+<input type="button" value="OK">
+</form>
+<form action="/action_page.php">
+Name: <input type="text" name="name">
+<input type="submit">
+</form>
+<form action="/action_page.php">
+  <select name="thema">
+    <option value="herfst">Herfst</option>
+    <option value="taarten">Taarten</option>
+    <option value="ovenschotels">Ovenschotels</option>
+    <option value="zoet">Zoet</option>
+  </select>
+  <input type="submit">
+</form>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+<p id="demo">Aan de slag!</p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px"; 
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";    
+    document.getElementById("demo").innerHTML = "Hello World!";    
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<h1>eerste recept</h1>
+<ul>
+<li>Recepten op deze website zijn een benadering en niet nauwkeurig omdat ik zelf nooit recepten volg. Ze nodigen je uit om te experimenteren in de keuken en geven alleen kaders waarbinnen je vrij kunt mixen en varieren. </li>
+</ul>
+<ul>
+<li>Pompoensoep.</li>
+<li>Muffins met groentes.</li>
+<li>Hartige taarten.</li>
+</ul>
+<ul>
+<li>Laten we beginnen met soepen. Er is geen makkelijkere manier om veel groentes binnen te krijgen. </li>
+</ul>
+<h2>Recepten</h2>
+
+<div id="recept1"><ol>
+<h2>Pompoensoep</h2>
+<li>Slacht eerst de pompoen met een scherp mes.</li>
+<li>Wanneer je nog aardappels of zoete aardappelen hebt gooi je die er ook maar bij.</li>
+<li>Wortelen kunnen er ook in.</li>
+</ol>
+<p> Kook de ingredienten even voor. </p>
+</div>
+<div id="recept2"><ol>
+<h2>Pompoensoep</h2>
+<li>Slacht eerst de pompoen met een scherp mes.</li>
+<li>Wanneer je nog aardappels of zoete aardappelen hebt gooi je die er ook maar bij.</li>
+<li>Wortelen kunnen er ook in.</li>
+</ol>
+<p> Kook de ingredienten even voor. </p>
+</div>
+<div id="recept3"><ol>
+<h2>Pompoensoep</h2>
+<li>Slacht eerst de pompoen met een scherp mes.</li>
+<li>Wanneer je nog aardappels of zoete aardappelen hebt gooi je die er ook maar bij.</li>
+<li>Wortelen kunnen er ook in.</li>
+</ol>
+<p> Kook de ingredienten even voor. </p>
+</div>
+</article> 
+
+<footer>
+<p>© 2017 Saskia Vening</p>
+</footer>
+
+</body>
+
+</html>
